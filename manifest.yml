@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: Canal del Tiempo
+  host: Canal-del-Tiempo
+  disk_quota: 1024M
+  services:
+  - Weather Company Data-2w
