@@ -1,10 +1,9 @@
 applications:
-- path: .
-  memory: 256M
-  instances: 1
+- disk_quota: 1024M
+  name: weather-company-data-demo
+  host: weather-company-data-demo
+  command: node app.js
+  path: .
   domain: mybluemix.net
-  name: Canal del Tiempo
-  host: Canal-del-Tiempo
-  disk_quota: 1024M
-  services:
-  - Weather Company Data-2w
+  instances: 1
+  memory: 512M
